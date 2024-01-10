@@ -2,7 +2,6 @@
 #include <object.h>
 #include <listobject.h>
 #include <bytesobject.h>
-""" Naming Functions """
 
 void print_python_bytes(PyObject *p)
 {
@@ -30,8 +29,6 @@ void print_python_bytes(PyObject *p)
 	printf("\n");
 }
 
-
-""" Print Lists """
 void print_python_list(PyObject *p)
 {
         long int size = PyList_Size(p);
